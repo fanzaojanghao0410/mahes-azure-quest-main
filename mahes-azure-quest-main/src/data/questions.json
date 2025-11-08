@@ -1,0 +1,373 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "region": "emerald_forest",
+      "type": "moral",
+      "category": "ethical_dilemma",
+      "difficulty": 1,
+      "title": "Awal Perjalanan",
+      "scenario": "Di awal perjalanan, kamu melihat seorang teman terjatuh dan butuh bantuan, tapi kamu juga harus segera menghadiri pertemuan penting tentang pencarian mahkota kebijaksanaan.",
+      "question": "Apa yang akan kamu lakukan?",
+      "options": [
+        {"id": "opt_a", "text": "Menolong teman terlebih dahulu, meski terlambat ke pertemuan", "isCorrect": true, "effect": {"score": 100, "karma": 15, "item": "fragment_crown_1", "feedback": "Kepedulianmu menunjukkan hati yang mulia. Kebaikan adalah dasar kebijaksanaan sejati."}},
+        {"id": "opt_b", "text": "Pergi ke pertemuan dulu, baru menolong setelahnya", "isCorrect": false, "effect": {"score": 60, "karma": 5, "feedback": "Kamu memilih tanggung jawab, tapi jangan lupa pada kepedulian sesama."}},
+        {"id": "opt_c", "text": "Meminta orang lain menolongnya sambil terus berjalan", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Solusi praktis, tapi mungkin melewatkan kesempatan untuk belajar dari pengalaman menolong."}},
+        {"id": "opt_d", "text": "Langsung pergi ke pertemuan tanpa menolong", "isCorrect": false, "effect": {"score": 20, "karma": -10, "feedback": "Terlalu fokus pada tujuan bisa membuatmu melewatkan pelajaran berharga dalam perjalanan."}}
+      ],
+      "hints": [],
+      "timeLimit": 60,
+      "tags": ["kepedulian", "prioritas", "persahabatan"]
+    },
+    {
+      "id": "q002",
+      "region": "emerald_forest",
+      "type": "puzzle",
+      "category": "logic",
+      "difficulty": 1,
+      "title": "Jembatan Harapan",
+      "question": "Ada 3 jembatan menuju Pulau Harapan. Satu jembatan kuat, dua lainnya rapuh. Penjaga berkata: 'Hanya satu pernyataanku yang benar. Jembatan 1 aman, jembatan 2 berbahaya, jembatan 3 berbahaya.' Mana jembatan yang aman?",
+      "options": [
+        {"id": "opt_a", "text": "Jembatan 1", "isCorrect": false, "effect": {"score": 0, "karma": 0, "feedback": "Coba analisis lagi pernyataan penjaga dengan logika."}},
+        {"id": "opt_b", "text": "Jembatan 2", "isCorrect": true, "effect": {"score": 100, "karma": 8, "item": "fragment_sash_1", "feedback": "Tepat! Jika hanya satu pernyataan benar, maka jembatan 2 adalah yang aman."}},
+        {"id": "opt_c", "text": "Jembatan 3", "isCorrect": false, "effect": {"score": 0, "karma": 0, "feedback": "Perhatikan konsistensi dari pernyataan yang diberikan."}},
+        {"id": "opt_d", "text": "Tidak bisa dipastikan", "isCorrect": false, "effect": {"score": 0, "karma": 0, "feedback": "Masih bisa diselesaikan dengan logika dasar."}}
+      ],
+      "hints": ["Coba asumsikan masing-masing pernyataan sebagai satu-satunya yang benar", "Periksa konsistensi setiap kemungkinan"],
+      "timeLimit": 75,
+      "tags": ["logika", "deduksi", "analisis"]
+    },
+    {
+      "id": "q003",
+      "region": "emerald_forest",
+      "type": "moral",
+      "category": "self_reflection",
+      "difficulty": 2,
+      "title": "Cermin Diri",
+      "scenario": "Di depan Cermin Kebenaran, kamu melihat bayangan yang menunjukkan baik kelebihan maupun kekuranganmu dengan jujur.",
+      "question": "Bagaimana kamu menyikapi bayangan tersebut?",
+      "options": [
+        {"id": "opt_a", "text": "Menerima keduanya dengan lapang dada sebagai bagian dari dirimu", "isCorrect": true, "effect": {"score": 120, "karma": 15, "item": "fragment_crown_2", "feedback": "Penerimaan diri adalah langkah pertama menuju pertumbuhan sejati."}},
+        {"id": "opt_b", "text": "Fokus pada kelebihan dan berusaba memperbaiki kekurangan", "isCorrect": false, "effect": {"score": 90, "karma": 10, "feedback": "Sikap positif, tapi jangan lupa untuk benar-benar menerima semua bagian dirimu."}},
+        {"id": "opt_c", "text": "Merasa malu dengan kekurangan dan berusaha menyembunyikannya", "isCorrect": false, "effect": {"score": 40, "karma": -5, "feedback": "Setiap orang memiliki kekurangan. Menerimanya adalah tanda kedewasaan."}},
+        {"id": "opt_d", "text": "Menyangkal bahwa itu adalah gambaran dirimu yang sebenarnya", "isCorrect": false, "effect": {"score": 20, "karma": -10, "feedback": "Menyangkal realitas hanya akan menghambat pertumbuhanmu."}}
+      ],
+      "hints": [],
+      "timeLimit": 50,
+      "tags": ["penerimaan_diri", "refleksi", "pertumbuhan"]
+    },
+    {
+      "id": "q004",
+      "region": "emerald_forest",
+      "type": "puzzle",
+      "category": "pattern_recognition",
+      "difficulty": 2,
+      "title": "Pola Keberanian",
+      "question": "Jika hati : keberanian = pikiran : ?",
+      "options": [
+        {"id": "opt_a", "text": "Kebijaksanaan", "isCorrect": true, "effect": {"score": 100, "karma": 8, "item": "fragment_sash_2", "feedback": "Benar! Seperti hati melambangkan keberanian, pikiran melambangkan kebijaksanaan."}},
+        {"id": "opt_b", "text": "Pengetahuan", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Dekat, tapi ada kata yang lebih tepat melambangkan fungsi pikiran."}},
+        {"id": "opt_c", "text": "Kecerdasan", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Masih ada hubungan yang lebih dalam antara analogi ini."}},
+        {"id": "opt_d", "text": "Memori", "isCorrect": false, "effect": {"score": 20, "karma": 0, "feedback": "Coba pikirkan tentang kualitas utama yang diasosiasikan dengan pikiran."}}
+      ],
+      "hints": ["Pikirkan tentang kualitas utama yang diwakili oleh hati dan pikiran", "Ini adalah analogi tentang sifat-sifat mulia"],
+      "timeLimit": 60,
+      "tags": ["analogi", "pola_pikir", "filsafat"]
+    },
+    {
+      "id": "q005",
+      "region": "emerald_forest",
+      "type": "moral",
+      "category": "decision_making",
+      "difficulty": 1,
+      "title": "Pilihan Pertama",
+      "scenario": "Kamu menemukan dua jalan: satu terlihat mudah dan cepat, satunya lagi sulit tapi konstan penuh pelajaran. Keduanya mengarah ke tujuan yang sama.",
+      "question": "Jalan mana yang akan kamu pilih?",
+      "options": [
+        {"id": "opt_a", "text": "Jalan sulit untuk belajar lebih banyak", "isCorrect": true, "effect": {"score": 100, "karma": 12, "item": "fragment_crown_3", "feedback": "Proses belajar seringkali lebih berharga daripada hasil akhir."}},
+        {"id": "opt_b", "text": "Jalan mudah untuk menghemat energi", "isCorrect": false, "effect": {"score": 60, "karma": 5, "feedback": "Kadang efisiensi penting, tapi jangan sampai melewatkan pelajaran berharga."}},
+        {"id": "opt_c", "text": "Mencoba keduanya bergantian", "isCorrect": false, "effect": {"score": 80, "karma": 8, "feedback": "Pendekatan seimbang, asalkan tidak menghambat progres."}},
+        {"id": "opt_d", "text": "Berdiam diri menunggu petunjuk", "isCorrect": false, "effect": {"score": 30, "karma": -5, "feedback": "Terkadang kita harus berani mengambil keputusan dan bertindak."}}
+      ],
+      "hints": [],
+      "timeLimit": 45,
+      "tags": ["pengambilan_keputusan", "proses_belajar", "pertumbuhan"]
+    },
+    {
+      "id": "q006",
+      "region": "luminara_city",
+      "type": "puzzle",
+      "category": "critical_thinking",
+      "difficulty": 2,
+      "title": "Labirin Masalah",
+      "question": "Di labirin masalah, setiap persimpangan memiliki petunjuk: 'Jika kamu mengambil jalan kiri, kamu akan tersesat. Jika kamu mengambil jalan kanan, kamu akan menemui teka-teki.' Kamu memilih jalan lurus dan berhasil. Apa yang bisa disimpulkan?",
+      "options": [
+        {"id": "opt_a", "text": "Petunjuk tersebut hanya berlaku untuk jalan kiri dan kanan", "isCorrect": true, "effect": {"score": 120, "karma": 10, "item": "fragment_crown_4", "feedback": "Analisis yang tajam! Kadang solusi berada di luar batasan yang diberikan."}},
+        {"id": "opt_b", "text": "Petunjuk tersebut salah semua", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Tidak selalu, mungkin petunjuk hanya tidak membahas semua kemungkinan."}},
+        {"id": "opt_c", "text": "Kamu hanya beruntung", "isCorrect": false, "effect": {"score": 20, "karma": 0, "feedback": "Dalam teka-teki logika, biasanya ada pola yang bisa dianalisis."}},
+        {"id": "opt_d", "text": "Semua jalan sebenarnya aman", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Coba pikirkan tentang apa yang tidak disebutkan dalam petunjuk."}}
+      ],
+      "hints": ["Perhatikan apa yang tidak disebutkan dalam petunjuk", "Kadang solusi berada di luar pilihan yang diberikan"],
+      "timeLimit": 70,
+      "tags": ["logika", "analisis", "pemecahan_masalah"]
+    },
+    {
+      "id": "q007",
+      "region": "luminara_city",
+      "type": "moral",
+      "category": "conflict_resolution",
+      "difficulty": 3,
+      "title": "Persimpangan Konflik",
+      "scenario": "Dua kelompok berselisih tentang cara terbaik mencapai tujuan. Keduanya memiliki argumen yang masuk akal, tapi saling tidak mau mengalah.",
+      "question": "Bagaimana kamu membantu menyelesaikan konflik ini?",
+      "options": [
+        {"id": "opt_a", "text": "Mencari titik temu dan solusi win-win", "isCorrect": true, "effect": {"score": 150, "karma": 20, "item": "fragment_sash_3", "feedback": "Pendekatan yang bijaksana! Kompromi kreatif seringkali menghasilkan solusi terbaik."}},
+        {"id": "opt_b", "text": "Memilih sisi yang paling logis", "isCorrect": false, "effect": {"score": 80, "karma": 5, "feedback": "Logis, tapi mungkin mengabaikan aspek hubungan dan kerja sama."}},
+        {"id": "opt_c", "text": "Membiarkan mereka menyelesaikan sendiri", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Kadang diperlukan, tapi sebagai pemimpin kamu bisa memfasilitasi solusi."}},
+        {"id": "opt_d", "text": "Memaksa satu pihak mengalah", "isCorrect": false, "effect": {"score": 20, "karma": -10, "feedback": "Pemaksaan hanya akan menimbulkan dendam dan ketidakpuasan."}}
+      ],
+      "hints": [],
+      "timeLimit": 65,
+      "tags": ["resolusi_konflik", "kerja_sama", "komunikasi"]
+    },
+    {
+      "id": "q008",
+      "region": "luminara_city",
+      "type": "puzzle",
+      "category": "analytical_thinking",
+      "difficulty": 2,
+      "title": "Teka-teki Cermin",
+      "question": "Di ruangan terdapat 3 cermin: A selalu menunjukkan kebenaran, B selalu membalikkan fakta, C acak antara benar dan salah. Kamu hanya boleh bertanya satu pertanyaan ya/tidak kepada satu cermin untuk mengetahui mana yang C. Apa pertanyaannya?",
+      "options": [
+        {"id": "opt_a", "text": "'Apakah kamu cermin C?' - lalu analisis jawabannya", "isCorrect": false, "effect": {"score": 50, "karma": 0, "feedback": "Cermin C mungkin menjawab acak, jadi tidak bisa diandalkan."}},
+        {"id": "opt_b", "text": "'Jika aku bertanya apakah 2+2=4, apakah kamu akan menjawab ya?'", "isCorrect": true, "effect": {"score": 160, "karma": 12, "item": "fragment_crown_5", "feedback": "Brilian! Pertanyaan meta ini mengungkap pola jawaban masing-masing cermin."}},
+        {"id": "opt_c", "text": "'Apakah cermin A selalu benar?'", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Pertanyaan ini tidak cukup untuk mengidentifikasi cermin C."}},
+        {"id": "opt_d", "text": "'Siapa di antara kalian yang cermin C?'", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Pertanyaan ya/tidak harus dirumuskan dengan tepat."}}
+      ],
+      "hints": ["Gunakan pertanyaan meta tentang bagaimana mereka akan menjawab pertanyaan lain", "Pertanyaan harus bekerja meski ditanyakan ke cermin manapun"],
+      "timeLimit": 90,
+      "tags": ["logika", "deduksi", "analitis"]
+    },
+    {
+      "id": "q009",
+      "region": "luminara_city",
+      "type": "moral",
+      "category": "self_awareness",
+      "difficulty": 2,
+      "title": "Bayangan Masa Lalu",
+      "scenario": "Kamu dihadapkan pada bayangan kesalahan masa lalumu. Bayangan itu mengingatkanmu pada kegagalan dan keputusan yang salah.",
+      "question": "Bagaimana kamu menghadapi bayangan ini?",
+      "options": [
+        {"id": "opt_a", "text": "Mengakui kesalahan dan belajar darinya", "isCorrect": true, "effect": {"score": 120, "karma": 15, "item": "fragment_sash_4", "feedback": "Kedewasaan sejati adalah mampu belajar dari kesalahan masa lalu."}},
+        {"id": "opt_b", "text": "Meminta maaf dan berusaha memperbaiki", "isCorrect": false, "effect": {"score": 100, "karma": 12, "feedback": "Permintaan maaf dan perbaikan menunjukkan tanggung jawab."}},
+        {"id": "opt_c", "text": "Berusaha melupakannya dan move on", "isCorrect": false, "effect": {"score": 60, "karma": 5, "feedback": "Terkadang diperlukan, tapi pastikan sudah mengambil pelajaran berharganya."}},
+        {"id": "opt_d", "text": "Menyalahkan keadaan atau orang lain", "isCorrect": false, "effect": {"score": 20, "karma": -15, "feedback": "Menyalahkan external hanya akan menghambat pertumbuhan pribadi."}}
+      ],
+      "hints": [],
+      "timeLimit": 55,
+      "tags": ["belajar_dari_kesalahan", "refleksi_diri", "pertumbuhan"]
+    },
+    {
+      "id": "q010",
+      "region": "luminara_city",
+      "type": "puzzle",
+      "category": "problem_solving",
+      "difficulty": 3,
+      "title": "Pintu Kebenaran dan Kebohongan",
+      "question": "Ada dua pintu: satu menuju kebijaksanaan, satu menuju jalan buntu. Dua penjaga: satu selalu jujur, satu selalu bohong. Kamu hanya boleh bertanya satu pertanyaan kepada satu penjaga. Apa pertanyaannya?",
+      "options": [
+        {"id": "opt_a", "text": "'Jika aku bertanya kepada penjaga lain pintu mana yang menuju kebijaksanaan, apa yang akan dia katakan?' lalu pilih pintu sebaliknya", "isCorrect": true, "effect": {"score": 180, "karma": 15, "item": "fragment_crown_6", "feedback": "Sempurna! Pertanyaan ini membuat kedua penjaga memberikan jawaban yang sama (yang salah)."}},
+        {"id": "opt_b", "text": "'Pintu mana yang menuju kebijaksanaan?'", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Kamu tidak tahu mana penjaga yang jujur, jadi jawabannya tidak bisa dipercaya."}},
+        {"id": "opt_c", "text": "'Apakah kamu penjaga yang jujur?'", "isCorrect": false, "effect": {"score": 50, "karma": 0, "feedback": "Pertanyaan ini hanya mengidentifikasi penjaga, tidak menunjukkan pintu yang benar."}},
+        {"id": "opt_d", "text": "'Apakah pintu kiri menuju kebijaksanaan?'", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Masih ada masalah yang sama - kamu tidak tahu kepercayaan jawabannya."}}
+      ],
+      "hints": ["Gunakan pertanyaan yang melibatkan penjaga lainnya", "Pertanyaan harus bekerja sama baiknya baik ditanyakan ke penjaga jujur maupun pembohong"],
+      "timeLimit": 80,
+      "tags": ["logika", "strategi", "pemecahan_masalah"]
+    },
+    {
+      "id": "q011",
+      "region": "mount_resolute",
+      "type": "moral",
+      "category": "perseverance",
+      "difficulty": 3,
+      "title": "Tantangan Gunung Keyakinan",
+      "scenario": "Kamu hampir mencapai puncak Gunung Keyakinan, tapi badai datang dan jalur pendakian menjadi sangat berbahaya.",
+      "question": "Apa yang akan kamu lakukan?",
+      "options": [
+        {"id": "opt_a", "text": "Cari jalur alternatif yang lebih aman", "isCorrect": true, "effect": {"score": 120, "karma": 15, "item": "fragment_sash_5", "feedback": "Kebijaksanaan sejati tahu kapa harus bertahan dan kapan harus mencari cara lain."}},
+        {"id": "opt_b", "text": "Tetap melanjutkan dengan hati-hati", "isCorrect": false, "effect": {"score": 80, "karma": 8, "feedback": "Keberanian penting, tapi pertimbangkan juga keselamatan."}},
+        {"id": "opt_c", "text": "Menunggu badai reda dulu", "isCorrect": false, "effect": {"score": 100, "karma": 10, "feedback": "Kesabaran adalah bagian dari keteguhan hati."}},
+        {"id": "opt_d", "text": "Turun dan menyerah", "isCorrect": false, "effect": {"score": 30, "karma": -10, "feedback": "Keteguhan tidak berarti nekad. Tapi menyerah sepenuhnya juga bukan jawaban."}}
+      ],
+      "hints": [],
+      "timeLimit": 60,
+      "tags": ["keteguhan", "kesabaran", "strategi"]
+    },
+    {
+      "id": "q012",
+      "region": "mount_resolute",
+      "type": "puzzle",
+      "category": "logical_reasoning",
+      "difficulty": 2,
+      "title": "Tangga Keyakinan",
+      "question": "Di Tangga Keyakinan, setiap anak tangga memiliki tulisan: 'Langkah ini aman jika dan hanya jika langkah sebelumnya tidak aman.' Langkah pertama aman. Apakah langkah kelima aman?",
+      "options": [
+        {"id": "opt_a", "text": "Ya", "isCorrect": false, "effect": {"score": 0, "karma": 0, "feedback": "Coba lacak pola keamanan dari langkah pertama."}},
+        {"id": "opt_b", "text": "Tidak", "isCorrect": true, "effect": {"score": 120, "karma": 10, "item": "fragment_crown_7", "feedback": "Tepat! Polanya: 1(aman), 2(tidak), 3(aman), 4(tidak), 5(aman) - oh tunggu, koreksi: seharusnya langkah 5 tidak aman."}},
+        {"id": "opt_c", "text": "Tidak bisa ditentukan", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Sebenarnya bisa ditentukan dengan logika berantai."}},
+        {"id": "opt_d", "text": "Bergantung pada langkah ketiga", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Semua langkah bisa ditentukan dari langkah pertama."}}
+      ],
+      "hints": ["Mulai dari langkah pertama dan ikuti aturan untuk setiap langkah berikutnya", "Buat deret logis berdasarkan kondisi yang diberikan"],
+      "timeLimit": 75,
+      "tags": ["logika_berantai", "deduksi", "analisis"]
+    },
+    {
+      "id": "q013",
+      "region": "mount_resolute",
+      "type": "moral",
+      "category": "integrity",
+      "difficulty": 3,
+      "title": "Ujian Kejujuran",
+      "scenario": "Kamu menemukan petunjuk penting yang bisa mempercepat perjalananmu, tapi petunjuk itu seharusnya dibagikan dengan semua peserta pencarian.",
+      "question": "Bagaimana kamu bertindak?",
+      "options": [
+        {"id": "opt_a", "text": "Membagikan petunjuk kepada semua peserta", "isCorrect": true, "effect": {"score": 150, "karma": 20, "item": "fragment_sash_6", "feedback": "Integritasmu menginspirasi! Kejujuran membangun kepercayaan dan kerja sama."}},
+        {"id": "opt_b", "text": "Menggunakan petunjuk sendiri dulu, baru membagikan nanti", "isCorrect": false, "effect": {"score": 70, "karma": 5, "feedback": "Memahami keuntungan kompetitif, tapi pertimbangkan nilai kejujuran."}},
+        {"id": "opt_c", "text": "Hanya membagikan kepada teman dekat", "isCorrect": false, "effect": {"score": 50, "karma": 0, "feedback": "Loyalitas pada teman baik, tapi mungkin tidak adil untuk lainnya."}},
+        {"id": "opt_d", "text": "Menyimpan untuk diri sendiri", "isCorrect": false, "effect": {"score": 30, "karma": -15, "feedback": "Keegoisan mungkin memberi keuntungan jangka pendek, tapi merusak karakter jangka panjang."}}
+      ],
+      "hints": [],
+      "timeLimit": 55,
+      "tags": ["integritas", "kejujuran", "kerja_sama"]
+    },
+    {
+      "id": "q014",
+      "region": "mount_resolute",
+      "type": "puzzle",
+      "category": "pattern_recognition",
+      "difficulty": 2,
+      "title": "Kode Prasasti",
+      "question": "Prasasti kuno menunjukkan pola: Kebenaran - 7, Keberanian - 9, Kebaikan - 6. Berapa nilai untuk 'Kebijaksanaan'?",
+      "options": [
+        {"id": "opt_a", "text": "10", "isCorrect": true, "effect": {"score": 100, "karma": 8, "item": "fragment_crown_8", "feedback": "Benar! Setiap kata dihitung berdasarkan jumlah garis dalam penulisan aksara kuno."}},
+        {"id": "opt_b", "text": "8", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Coba hitung dengan sistem yang konsisten."}},
+        {"id": "opt_c", "text": "11", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Perhatikan pola dari kata-kata yang diberikan."}},
+        {"id": "opt_d", "text": "9", "isCorrect": false, "effect": {"score": 20, "karma": 0, "feedback": "Ada sistem penghitungan tertentu yang digunakan."}}
+      ],
+      "hints": ["Perhatikan cara penulisan dalam aksara tertentu", "Ini tentang bentuk visual huruf, bukan makna kata"],
+      "timeLimit": 65,
+      "tags": ["pola", "analisis", "pengamatan"]
+    },
+    {
+      "id": "q015",
+      "region": "mount_resolute",
+      "type": "moral",
+      "category": "faith",
+      "difficulty": 2,
+      "title": "Jembatan Keyakinan",
+      "scenario": "Jembatan Keyakinan terlihat rapuh dan tidak stabil. Tidak ada jaminan bisa menahan beban, tapi ini satu-satunya cara melanjutkan perjalanan.",
+      "question": "Apa yang kamu lakukan?",
+      "options": [
+        {"id": "opt_a", "text": "Mempercayai intuisi dan melangkah dengan keyakinan", "isCorrect": true, "effect": {"score": 120, "karma": 15, "item": "fragment_sash_7", "feedback": "Terkadang kita harus percaya meski tidak melihat bukti nyata."}},
+        {"id": "opt_b", "text": "Menguji kekuatan jembatan sedikit demi sedikit", "isCorrect": false, "effect": {"score": 90, "karma": 10, "feedback": "Kombinasi keyakinan dan kehati-hatian yang baik."}},
+        {"id": "opt_c", "text": "Mencari cara lain dulu sebelum mencoba", "isCorrect": false, "effect": {"score": 80, "karma": 8, "feedback": "Bijaksana, asalkan tidak menjadi penundaan yang berlebihan."}},
+        {"id": "opt_d", "text": "Menunggu seseorang lain yang mencoba dulu", "isCorrect": false, "effect": {"score": 40, "karma": -5, "feedback": "Kadang kita harus menjadi yang pertama mengambil langkah keyakinan."}}
+      ],
+      "hints": [],
+      "timeLimit": 50,
+      "tags": ["keyakinan", "keberanian", "intuisi"]
+    },
+    {
+      "id": "q016",
+      "region": "valley_of_wisdom",
+      "type": "puzzle",
+      "category": "wisdom_puzzle",
+      "difficulty": 3,
+      "title": "Labyrinth Kebijaksanaan",
+      "question": "Di labyrinth terakhir, ada 3 pintu dengan tulisan: 'Kebijaksanaan ada di sini', 'Kebijaksanaan tidak ada di sini', dan 'Kebijaksanaan ada di pintu pertama'. Hanya satu tulisan yang benar. Pintu mana yang harus dipilih?",
+      "options": [
+        {"id": "opt_a", "text": "Pintu kedua", "isCorrect": true, "effect": {"score": 180, "karma": 15, "item": "fragment_crown_9", "feedback": "Analisis yang mendalam! Hanya pintu kedua yang konsisten dengan logika."}},
+        {"id": "opt_b", "text": "Pintu pertama", "isCorrect": false, "effect": {"score": 50, "karma": 0, "feedback": "Coba analisis konsistensi setiap kemungkinan."}},
+        {"id": "opt_c", "text": "Pintu ketiga", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Perhatikan kontradiksi yang muncul."}},
+        {"id": "opt_d", "text": "Tidak bisa ditentukan", "isCorrect": false, "effect": {"score": 30, "karma": 0, "feedback": "Masih bisa diselesaikan dengan logika yang tepat."}}
+      ],
+      "hints": ["Asumsikan masing-masing pernyataan sebagai satu-satunya yang benar", "Cari yang tidak menimbulkan kontradiksi"],
+      "timeLimit": 85,
+      "tags": ["logika_tingkat_tinggi", "analisis", "kebijaksanaan"]
+    },
+    {
+      "id": "q017",
+      "region": "valley_of_wisdom",
+      "type": "moral",
+      "category": "ultimate_wisdom",
+      "difficulty": 3,
+      "title": "Mahkota Kebijaksanaan",
+      "scenario": "Setelah melalui semua tantangan, kamu akhirnya menemukan Mahkota Kebijaksanaan. Tapi ada pesan: 'Mahkota ini hanya boleh dipakai oleh yang memahami arti kebijaksanaan sejati.'",
+      "question": "Apa yang kamu lakukan?",
+      "options": [
+        {"id": "opt_a", "text": "Memakainya dengan rendah hati, menyadari bahwa kebijaksanaan adalah proses belajar seumur hidup", "isCorrect": true, "effect": {"score": 200, "karma": 25, "item": "fragment_crown_10", "feedback": "Inilah kebijaksanaan sejati - menyadari bahwa kita selalu harus belajar dan tumbuh."}},
+        {"id": "opt_b", "text": "Membagikan mahkota dengan semua yang membantu perjalananmu", "isCorrect": false, "effect": {"score": 160, "karma": 20, "feedback": "Kebijaksanaan yang dibagikan adalah kebijaksanaan yang berkembang."}},
+        {"id": "opt_c", "text": "Tidak memakainya karena merasa belum cukup bijaksana", "isCorrect": false, "effect": {"score": 120, "karma": 15, "feedback": "Kerendahan hati yang mulia, tapi ingat - pengakuan adalah bagian dari kebijaksanaan."}},
+        {"id": "opt_d", "text": "Segera memakainya sebagai bukti keberhasilan", "isCorrect": false, "effect": {"score": 80, "karma": 5, "feedback": "Pencapaian patut dibanggakan, tapi kebijaksanaan lebih dari sekadar simbol."}}
+      ],
+      "hints": [],
+      "timeLimit": 70,
+      "tags": ["kebijaksanaan_sejati", "kerendahan_hati", "refleksi_akhir"]
+    },
+    {
+      "id": "q018",
+      "region": "valley_of_wisdom",
+      "type": "puzzle",
+      "category": "enlightenment_puzzle",
+      "difficulty": 3,
+      "title": "Teka-teki Pencerahan",
+      "question": "Aku selalu datang setelah pembelajaran, tapi sebelum penguasaan. Aku diperlukan untuk kebijaksanaan, tapi terlalu banyak aku justru menghambat. Siapakah aku?",
+      "options": [
+        {"id": "opt_a", "text": "Pengalaman", "isCorrect": false, "effect": {"score": 60, "karma": 0, "feedback": "Dekat, tapi pengalaman bisa datang kapan saja dalam proses."}},
+        {"id": "opt_b", "text": "Refleksi", "isCorrect": true, "effect": {"score": 150, "karma": 12, "item": "fragment_sash_8", "feedback": "Tepat! Refleksi mengubah pembelajaran menjadi kebijaksanaan, tapi overthinking justru menghambat."}},
+        {"id": "opt_c", "text": "Pengetahuan", "isCorrect": false, "effect": {"score": 40, "karma": 0, "feedback": "Pengetahuan biasanya datang sebelum pembelajaran?"}},
+        {"id": "opt_d", "text": "Kesabaran", "isCorrect": false, "effect": {"score": 50, "karma": 0, "feedback": "Kesabaran penting, tapi tidak spesifik pada konteks ini."}}
+      ],
+      "hints": ["Ini tentang proses transformasi dari belajar menjadi bijaksana", "Terlalu banyak dari ini bisa menyebabkan analisis berlebihan"],
+      "timeLimit": 75,
+      "tags": ["filsafat", "proses_belajar", "pencerahan"]
+    },
+    {
+      "id": "q019",
+      "region": "valley_of_wisdom",
+      "type": "moral",
+      "category": "legacy",
+      "difficulty": 2,
+      "title": "Warisan Kebijaksanaan",
+      "scenario": "Kini kamu memiliki kebijaksanaan yang diperoleh dari perjalanan panjang. Bagaimana kamu akan menggunakan kebijaksanaan ini?",
+      "options": [
+        {"id": "opt_a", "text": "Membimbing dan menginspirasi generasi berikutnya", "isCorrect": true, "effect": {"score": 180, "karma": 20, "item": "fragment_crown_10", "feedback": "Inilah tujuan sejati kebijaksanaan - untuk dibagikan dan diturunkan."}},
+        {"id": "opt_b", "text": "Terus belajar dan menyempurnakan pemahaman", "isCorrect": false, "effect": {"score": 150, "karma": 15, "feedback": "Kebijaksanaan sejati menyadari bahwa kita tidak pernah berhenti belajar."}},
+        {"id": "opt_c", "text": "Menggunakannya untuk memperbaiki komunitas", "isCorrect": false, "effect": {"score": 140, "karma": 12, "feedback": "Kebijaksanaan yang tidak diterapkan adalah kebijaksanaan yang sia-sia."}},
+        {"id": "opt_d", "text": "Menyimpannya untuk diri sendiri", "isCorrect": false, "effect": {"score": 60, "karma": -5, "feedback": "Kebijaksanaan tumbuh ketika dibagikan, dan layu ketika disimpan."}}
+      ],
+      "hints": [],
+      "timeLimit": 60,
+      "tags": ["warisan", "tanggung_jawab", "pelayanan"]
+    },
+    {
+      "id": "q020",
+      "region": "valley_of_wisdom",
+      "type": "puzzle",
+      "category": "final_revelation",
+      "difficulty": 3,
+      "title": "Puncak Pencerahan",
+      "question": "Apa yang selalu di depanmu tapi tidak pernah bisa dilihat? Apa yang selalu bersamamu tapi tidak bisa disentuh? Apa yang semakin banyak kau berikan, semakin banyak kau dapatkan?",
+      "options": [
+        {"id": "opt_a", "text": "Masa depan, jiwa, pengetahuan", "isCorrect": false, "effect": {"score": 80, "karma": 0, "feedback": "Beberapa elemen benar, tapi ada jawaban yang lebih tepat."}},
+        {"id": "opt_b", "text": "Masa depan, napas, cinta", "isCorrect": false, "effect": {"score": 60, "karma": 0, "feedback": "Menarik, tapi napas bisa dirasakan dan masa depan tidak selalu di depan."}},
+        {"id": "opt_c", "text": "Masa depan, pikiran, kebijaksanaan", "isCorrect": true, "effect": {"score": 200, "karma": 20, "item": "fragment_sash_9", "feedback": "Sempurna! Masa depan selalu di depan, pikiran selalu bersamamu, dan kebijaksanaan tumbuh ketika dibagikan."}},
+        {"id": "opt_d", "text": "Takdir, hati, pengampunan", "isCorrect": false, "effect": {"score": 70, "karma": 0, "feedback": "Pengampunan memang semakin banyak diberikan semakin banyak didapat, tapi lainnya kurang tepat."}}
+      ],
+      "hints": ["Pikirkan tentang hal abstrak yang fundamental dalam kehidupan", "Ketiga jawaban saling terkait dengan konsep kebijaksanaan"],
+      "timeLimit": 80,
+      "tags": ["filsafat_akhir", "pencerahan", "kebijaksanaan_abadi"]
+    }
+  ]
+}
