@@ -107,12 +107,12 @@ export const GameHUD = ({ gameState, onMenuClick }: GameHUDProps) => {
         <div className="flex items-center justify-center gap-6">
           <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50">
             <img src={crownIcon} alt="Crown" className="w-6 h-6" />
-            <span className="font-bold text-foreground">{crownCount}/6</span>
+            <span className="font-bold text-foreground">{crownCount}/10</span>
           </div>
           
           <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-card/50">
             <img src={sashIcon} alt="Sash" className="w-6 h-6" />
-            <span className="font-bold text-foreground">{sashCount}/6</span>
+            <span className="font-bold text-foreground">{sashCount}/9</span>
           </div>
         </div>
 
