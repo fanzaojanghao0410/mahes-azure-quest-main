@@ -1,3 +1,4 @@
+//@ts-check
 import { useState, useEffect } from 'react';
 import { GameState, Question, QuestionOption } from '@/types/game';
 import { gameManager } from '@/lib/gameManager';
@@ -247,7 +248,11 @@ const Index = () => {
       karma: gameState.stats.karma,
       time: playTime,
       date: new Date().toISOString(),
-      ending: endingType
+      ending: endingType,
+      fragments: {
+        crown: gameManager.getFragmentCount(gameState).crown,
+        sash: gameManager.getFragmentCount(gameState).sash
+      }
     });
 
     toast({
@@ -334,7 +339,11 @@ const Index = () => {
               score: gameState.stats.score,
               karma: gameState.stats.karma,
               time: gameState.stats.playTime,
-              hintsUsed: gameState.stats.hintsUsed
+              hintsUsed: gameState.stats.hintsUsed,
+              fragments: {
+                crown: gameManager.getFragmentCount(gameState).crown,
+                sash: gameManager.getFragmentCount(gameState).sash
+              }
             }}
             onPlayAgain={handlePlayAgain}
             onSaveToLeaderboard={handleSaveToLeaderboard}
