@@ -49,7 +49,7 @@ export const LandingPage = ({ onStartGame, onShowLeaderboard }: LandingPageProps
 
         {/* Tagline */}
         <p className="text-lg md:text-xl text-foreground/90 mb-8 max-w-2xl mx-auto">
-          Quest of Time and Mind - Discover Yourself Between Every Choice
+          Discover Yourself Between Every Choice
         </p>
 
         {/* CTA Buttons */}
